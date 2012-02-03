@@ -1,0 +1,354 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.6	//
+BOUNDARY	w3camd/w3camd.c	393;"	d	file:
+BUFFSIZE	ppmtoascii.c	67;"	d	file:
+Bitmap_Clear	font.c	/^Bitmap_Clear (TT_Raster_Map *map)$/;"	f
+CAM_PORT	w3camd/w3camd.c	42;"	d	file:
+CC	Makefile	/^CC = gcc$/;"	m
+CC	w3camd/Makefile	/^CC = gcc$/;"	m
+CFG_bg	cgi.c	539;"	d	file:
+CFG_btl	cgi.c	544;"	d	file:
+CFG_css	cgi.c	541;"	d	file:
+CFG_desc	cgi.c	546;"	d	file:
+CFG_fg	cgi.c	540;"	d	file:
+CFG_keyw	cgi.c	547;"	d	file:
+CFG_log	cgi.c	543;"	d	file:
+CFG_mta	cgi.c	545;"	d	file:
+CFG_src	cgi.c	542;"	d	file:
+CFLAGS	Makefile	/^CFLAGS = -g -O2 -I\/usr\/local\/include -I\/usr\/local\/X11\/include  -DHAVE_LIBM=1 -DHAVE_LIBZ=1 -DHAVE_LIBPNG=1 -DHAVE_LIBJPEG=1  -DVIDEO_DEV=\\"\/dev\/video\\" -DVERSION=\\"$(VERSION)\\"$/;"	m
+CFLAGS	w3camd/Makefile	/^CFLAGS = -g -O2 -I\/usr\/local\/include -I\/usr\/local\/X11\/include -I.. -I. -I\/usr\/local\/include -g -DDEBUG -DCAM_PORT=8999 -D_REENTRANT$/;"	m
+CGI_METHOD_DELETE	cgi.h	27;"	d
+CGI_METHOD_GET	cgi.h	24;"	d
+CGI_METHOD_HEAD	cgi.h	23;"	d
+CGI_METHOD_LINK	cgi.h	28;"	d
+CGI_METHOD_POST	cgi.h	25;"	d
+CGI_METHOD_PUT	cgi.h	26;"	d
+CGI_METHOD_UNLINK	cgi.h	29;"	d
+DEF_HEIGHT	vidcat.c	46;"	d	file:
+DEF_WIDTH	vidcat.c	45;"	d	file:
+DPI	font.c	22;"	d	file:
+EMPTY	cgi.c	32;"	d	file:
+EMPTY	w3camd/w3socket.c	32;"	d	file:
+ERROR	font.c	21;"	d	file:
+FALSE	v4l.h	31;"	d
+FMT_DEFAULT	w3cam.c	60;"	d	file:
+FMT_JPEG	vidcat.c	52;"	d	file:
+FMT_JPEG	w3cam.h	23;"	d
+FMT_PGM	vidcat.c	50;"	d	file:
+FMT_PNG	vidcat.c	51;"	d	file:
+FMT_PNG	w3cam.h	24;"	d
+FMT_PPM	vidcat.c	49;"	d	file:
+FMT_PPM	w3cam.h	22;"	d
+FMT_UNKNOWN	vidcat.c	48;"	d	file:
+FMT_UNKNOWN	w3cam.h	21;"	d
+FMT_YUV4MPEG	vidcat.c	53;"	d	file:
+FREQLIST_DEFAULT	w3cam.c	70;"	d	file:
+Face_Done	font.c	/^Face_Done (TT_Instance inst, TT_Face face)$/;"	f
+Face_Open	font.c	/^Face_Open (char *file, TT_Engine engine, TT_Face *face,$/;"	f
+Glyphs_Done	font.c	/^Glyphs_Done (TT_Glyph *gl)$/;"	f
+Glyphs_Load	font.c	/^Glyphs_Load (TT_Face face, TT_Face_Properties *prop, TT_Instance inst,$/;"	f
+HEADER_ASSIGN	w3camd/w3http.c	54;"	d	file:
+HEADER_CHECK	w3camd/w3http.c	53;"	d	file:
+HEIGHT_DEFAULT	w3cam.c	64;"	d	file:
+HTTP_ACCEPTED	w3camd/w3http.h	/^	HTTP_ACCEPTED,$/;"	e	enum:__anon7
+HTTP_BAD_REQUEST	w3camd/w3http.h	/^	HTTP_BAD_REQUEST,$/;"	e	enum:__anon7
+HTTP_CONTENT_LENGTH	w3camd/w3http.h	/^	HTTP_CONTENT_LENGTH,$/;"	e	enum:__anon8
+HTTP_CONTENT_TYPE	w3camd/w3http.h	/^	HTTP_CONTENT_TYPE,$/;"	e	enum:__anon8
+HTTP_CONTINUE	w3camd/w3http.h	/^	HTTP_CONTINUE,$/;"	e	enum:__anon7
+HTTP_CREATED	w3camd/w3http.h	/^	HTTP_CREATED,$/;"	e	enum:__anon7
+HTTP_EXPIRES	w3camd/w3http.h	/^	HTTP_EXPIRES,$/;"	e	enum:__anon8
+HTTP_HEADER_END	w3camd/w3http.h	/^	HTTP_HEADER_END,$/;"	e	enum:__anon8
+HTTP_MIME_VERSION	w3camd/w3http.h	/^	HTTP_MIME_VERSION,$/;"	e	enum:__anon8
+HTTP_NO_CONTENT	w3camd/w3http.h	/^	HTTP_NO_CONTENT,$/;"	e	enum:__anon7
+HTTP_OK	w3camd/w3http.h	/^	HTTP_OK,$/;"	e	enum:__anon7
+HTTP_PROTOCOL	w3camd/w3http.c	48;"	d	file:
+HTTP_SERVER	w3camd/w3http.h	/^	HTTP_SERVER,$/;"	e	enum:__anon8
+HTTP_SERVER_ERROR	w3camd/w3http.h	/^	HTTP_SERVER_ERROR,$/;"	e	enum:__anon7
+HTTP_STATUS_END	w3camd/w3http.h	/^	HTTP_STATUS_END,$/;"	e	enum:__anon7
+HTTP_SWITCHING_PROTOCOLS	w3camd/w3http.h	/^	HTTP_SWITCHING_PROTOCOLS,$/;"	e	enum:__anon7
+INIT_ADDR	w3camd/w3socket.c	33;"	d	file:
+INPUT_DEFAULT	v4l.h	24;"	d
+IN_COMP1	w3cam.h	27;"	d
+IN_COMP2	w3cam.h	28;"	d
+IN_COMPOSITE	vidcat.c	56;"	d	file:
+IN_COMPOSITE2	vidcat.c	57;"	d	file:
+IN_SVIDEO	vidcat.c	58;"	d	file:
+IN_SVIDEO	w3cam.h	29;"	d
+IN_TV	vidcat.c	55;"	d	file:
+IN_TV	w3cam.h	26;"	d
+LDFLAGS	Makefile	/^LDFLAGS =  -L\/usr\/local\/lib -L\/usr\/local\/X11\/lib$/;"	m
+LIBS	Makefile	/^LIBS = -ljpeg -lpng -lz -lm $/;"	m
+LIMIT	v4l.c	197;"	d	file:
+MAX_ALL	w3camd/w3camd.c	453;"	d	file:
+MAX_BUF	w3camd/w3camd.c	452;"	d	file:
+MAX_HEADER	w3camd/w3http.c	78;"	d	file:
+MAX_HEIGHT	w3camd/w3camd.c	46;"	d	file:
+MAX_LINE	cgi.c	31;"	d	file:
+MAX_TRY_OPEN	w3cam.c	71;"	d	file:
+MAX_WIDTH	w3camd/w3camd.c	45;"	d	file:
+METHODDEF	w3camd/w3jpeg.c	/^METHODDEF(boolean)$/;"	f
+MIN_REFRESH	w3cam.c	69;"	d	file:
+MODE_DEFAULT	w3cam.c	66;"	d	file:
+MODE_GUI	w3cam.h	35;"	d
+MODE_HTML	w3cam.h	37;"	d
+MODE_PLAIN	w3cam.h	36;"	d
+MULTIPART_FORM	cgi.h	35;"	d
+NORM_DEFAULT	v4l.h	25;"	d
+NORM_NTSC	vidcat.c	61;"	d	file:
+NORM_NTSC	w3cam.h	32;"	d
+NORM_PAL	vidcat.c	60;"	d	file:
+NORM_PAL	w3cam.h	31;"	d
+NORM_SECAM	vidcat.c	62;"	d	file:
+NORM_SECAM	w3cam.h	33;"	d
+OBJ	Makefile	/^OBJ = w3cam.o cgi.o v4l.o$/;"	m
+OBJ	w3camd/Makefile	/^OBJ = w3camd.o w3socket.o w3v4l.o w3http.o w3jpeg.o$/;"	m
+OFF	w3cam.h	39;"	d
+OFF	w3camd/w3camd.c	49;"	d	file:
+OUTPUT_BUF_SIZE	w3camd/w3jpeg.c	36;"	d	file:
+QUALITY_DEFAULT	w3cam.c	61;"	d	file:
+QUAL_DEFAULT	vidcat.c	64;"	d	file:
+REFRESH_DEFAULT	w3cam.c	68;"	d	file:
+Raster_Done	font.c	/^Raster_Done (TT_Raster_Map *bit)$/;"	f
+Raster_Init	font.c	/^Raster_Init (TT_Face face, TT_Face_Properties *prop, TT_Instance inst,$/;"	f
+Raster_Small_Init	font.c	/^Raster_Small_Init (TT_Raster_Map *map, TT_Instance *inst)$/;"	f
+Render_Glyph	font.c	/^Render_Glyph (TT_Glyph g, TT_Glyph_Metrics *gm, int x_offset, int y_offset,$/;"	f
+Render_String	font.c	/^Render_String (TT_Glyph *gl, unsigned char *str, int len, TT_Raster_Map *bit,$/;"	f
+SERVER_NAME	w3camd/w3camd.c	47;"	d	file:
+SLEEP	w3camd/w3camd.c	48;"	d	file:
+STATUS_ASSIGN	w3camd/w3http.c	51;"	d	file:
+STATUS_CHECK	w3camd/w3http.c	50;"	d	file:
+ST_BUSY	w3camd/w3camd.c	/^	ST_BUSY,$/;"	e	enum:__anon1	file:
+ST_ERROR	w3camd/w3camd.c	/^	ST_ERROR,$/;"	e	enum:__anon1	file:
+ST_EXIT	w3camd/w3camd.c	/^	ST_EXIT,$/;"	e	enum:__anon1	file:
+ST_NONE	w3camd/w3camd.c	/^	ST_NONE,$/;"	e	enum:__anon1	file:
+ST_READY	w3camd/w3camd.c	/^	ST_READY,$/;"	e	enum:__anon1	file:
+TRUE	v4l.h	28;"	d
+TS_MAX	w3cam.c	597;"	d	file:
+TT_Init_FreeType	configure	/^TT_Init_FreeType()$/;"	f
+TT_VALID	font.c	23;"	d	file:
+URL_MAX	cgi.h	21;"	d
+USEC_DEFAULT	w3cam.c	67;"	d	file:
+USE_FILE	w3camd/w3camd.c	39;"	d	file:
+VER	cgi.h	32;"	d
+VERSION	Makefile	/^VERSION=0.7.2$/;"	m
+WIDTH_DEFAULT	w3cam.c	63;"	d	file:
+__V4L_H__	v4l.h	22;"	d
+__W3FILE_H__	w3camd/w3file.h	22;"	d
+__W3HTTP_H__	w3camd/w3http.h	23;"	d
+__W3JPEG_H__	w3camd/w3jpeg.h	23;"	d
+__W3LOG_H__	w3camd/w3log.h	23;"	d
+__W3SOCKET_H__	w3camd/w3socket.h	23;"	d
+__W3V4L_H__	w3camd/w3v4l.h	23;"	d
+_http_header	w3camd/w3http.c	/^static http_code _http_header[] = {$/;"	v	file:
+_http_status	w3camd/w3http.c	/^static http_code _http_status[] = {$/;"	v	file:
+_ttfont	font.c	/^typedef struct _ttfont {$/;"	s	file:
+accept_con	w3camd/w3socket.c	/^accept_con (int sd)$/;"	f
+bind_port	w3camd/w3socket.c	/^bind_port (char *host, int port)$/;"	f
+bindir	Makefile	/^bindir=${exec_prefix}\/bin$/;"	m
+boundary	cgi.h	/^	char *boundary;$/;"	m	struct:__anon13
+bounded_palette	font.c	/^static unsigned char bounded_palette[8] = {0, 1, 2, 3, 4, 4, 4, 4};$/;"	v	file:
+buffer	w3camd/w3jpeg.c	/^	JOCTET *buffer;$/;"	m	struct:__anon10	file:
+camera_t	w3camd/w3camd.c	/^} camera_t;$/;"	t	typeref:struct:__anon4	file:
+cgi_background	cgi.c	/^static char *cgi_background = NULL;$/;"	v	file:
+cgi_base	cgi.c	/^cgi_base (void)$/;"	f
+cgi_bottomline	cgi.c	/^static char *cgi_bottomline = NULL;$/;"	v	file:
+cgi_cfg	cgi.c	/^static char **cgi_cfg = NULL;$/;"	v	file:
+cgi_cfg_value	cgi.c	/^cgi_cfg_value (const char *key)$/;"	f
+cgi_client_software	cgi.c	/^cgi_client_software (void)$/;"	f
+cgi_content	cgi.c	/^cgi_content (void)$/;"	f
+cgi_content_length	cgi.c	/^cgi_content_length (void)$/;"	f
+cgi_content_type	cgi.c	/^cgi_content_type (const char *ct, const char *name)$/;"	f
+cgi_defaultMTA	cgi.c	/^cgi_defaultMTA (void)$/;"	f
+cgi_defaultmta	cgi.c	/^static char *cgi_defaultmta = NULL;$/;"	v	file:
+cgi_foreground	cgi.c	/^static char *cgi_foreground = NULL;$/;"	v	file:
+cgi_form	cgi.c	/^static char **cgi_form = NULL;$/;"	v	file:
+cgi_form_value	cgi.c	/^cgi_form_value (const char *key)$/;"	f
+cgi_gmt_str	cgi.c	/^cgi_gmt_str (long date)$/;"	f
+cgi_html_end	cgi.c	/^cgi_html_end (const char *s)$/;"	f
+cgi_html_start	cgi.c	/^cgi_html_start (const char *title)$/;"	f
+cgi_init	cgi.c	/^cgi_init (const char *pname)$/;"	f
+cgi_lock	cgi.c	/^cgi_lock (const char *file)$/;"	f
+cgi_logdir	cgi.c	/^cgi_logdir (void)$/;"	f
+cgi_loggingdir	cgi.c	/^static char *cgi_loggingdir = NULL;$/;"	v	file:
+cgi_meta_desc	cgi.c	/^static char *cgi_meta_desc = NULL;$/;"	v	file:
+cgi_meta_keyw	cgi.c	/^static char *cgi_meta_keyw = NULL;$/;"	v	file:
+cgi_method	cgi.c	/^cgi_method (void)$/;"	f
+cgi_multipart	cgi.c	/^cgi_multipart (const char *boundary)$/;"	f
+cgi_parse_form	cgi.c	/^cgi_parse_form (void)$/;"	f
+cgi_parse_multipart	cgi.c	/^cgi_parse_multipart (void)$/;"	f
+cgi_parse_query	cgi.c	/^cgi_parse_query (void)$/;"	f
+cgi_parse_stdin	cgi.c	/^cgi_parse_stdin (void)$/;"	f
+cgi_parse_string	cgi.c	/^cgi_parse_string (const char *str)$/;"	f
+cgi_redirect	cgi.c	/^cgi_redirect (const char *url)$/;"	f
+cgi_refresh	cgi.c	/^cgi_refresh (int t, char *url)$/;"	f
+cgi_refresh_time	cgi.c	/^static int  cgi_refresh_time = 0;$/;"	v	file:
+cgi_refresh_url	cgi.c	/^static char *cgi_refresh_url = 0;$/;"	v	file:
+cgi_remote_host	cgi.c	/^cgi_remote_host (void)$/;"	f
+cgi_response	cgi.c	/^cgi_response (int num, char *content_t)$/;"	f
+cgi_script_name	cgi.c	/^cgi_script_name (void)$/;"	f
+cgi_server_name	cgi.c	/^cgi_server_name (void)$/;"	f
+cgi_server_software	cgi.c	/^cgi_server_software (void)$/;"	f
+cgi_sourceURL	cgi.c	/^cgi_sourceURL (void)$/;"	f
+cgi_source_url	cgi.c	/^static char *cgi_source_url = NULL;$/;"	v	file:
+cgi_status	cgi.c	/^cgi_status (int num)$/;"	f
+cgi_stylesheet	cgi.c	/^static char *cgi_stylesheet = NULL;$/;"	v	file:
+cgi_unlock	cgi.c	/^cgi_unlock (const char *file)$/;"	f
+cgi_url_ref	cgi.c	/^cgi_url_ref ()$/;"	f
+cgibindir	Makefile	/^cgibindir=$(prefix)\/cgi-bin$/;"	m
+childs	w3camd/w3camd.c	/^	int childs;$/;"	m	struct:__anon2	file:
+childs_cond	w3camd/w3camd.c	/^	pthread_cond_t childs_cond;$/;"	m	struct:__anon2	file:
+childs_lock	w3camd/w3camd.c	/^	pthread_mutex_t childs_lock;$/;"	m	struct:__anon2	file:
+conn_t	w3camd/w3camd.c	/^} conn_t;$/;"	t	typeref:struct:__anon3	file:
+content_encoding	cgi.h	/^	int content_encoding;$/;"	m	struct:__anon13
+content_length	cgi.h	/^	int content_length;$/;"	m	struct:__anon13
+content_type	cgi.h	/^	char *content_type;$/;"	m	struct:__anon13
+data	cgi.h	/^	char *data;$/;"	m	struct:__anon13
+dev	w3camd/w3camd.c	/^	char *dev;$/;"	m	struct:__anon4	file:
+e_error	w3camd/w3camd.c	/^e_error (conn_t *cn)$/;"	f
+e_help	w3camd/w3camd.c	/^e_help (conn_t *cn)$/;"	f
+e_wrong_url	w3camd/w3camd.c	/^e_wrong_url (conn_t *cn)$/;"	f
+exec_prefix	Makefile	/^exec_prefix=${prefix}$/;"	m
+face	font.c	/^	TT_Face face;$/;"	m	struct:_ttfont	file:
+fd	w3camd/w3camd.c	/^	int fd;					\/* fd for the incoming connection *\/$/;"	m	struct:__anon3	file:
+fd	w3camd/w3file.h	/^	int fd;$/;"	m	struct:__anon5
+fd	w3camd/w3jpeg.c	/^	int fd;$/;"	m	struct:__anon10	file:
+fd	w3camd/w3v4l.h	/^	int fd;$/;"	m	struct:__anon9
+file_t	w3camd/w3file.h	/^} file_t;$/;"	t	typeref:struct:__anon5
+filename	cgi.h	/^	char *filename;$/;"	m	struct:__anon13
+forever	w3camd/w3camd.c	44;"	d	file:
+get_image	vidcat.c	/^get_image (int dev, int width, int height, int palette ,int *size)$/;"	f
+get_image	w3cam.c	/^get_image (int dev, int width, int height, int input, int usec,$/;"	f
+gzopen	configure	/^gzopen()$/;"	f
+height	w3camd/w3camd.c	/^	int height;				\/* image height *\/$/;"	m	struct:__anon2	file:
+height	w3camd/w3v4l.h	/^	int width, height;$/;"	m	struct:__anon9
+hex_to_asc	cgi.c	/^hex_to_asc (const char *str, int len)$/;"	f	file:
+hex_to_asc	w3camd/w3http.c	/^hex_to_asc (const char *str, int len)$/;"	f	file:
+host_addr	w3camd/w3socket.c	/^host_addr (char *host)$/;"	f
+http	cgi.c	/^static http_code http[] =$/;"	v	file:
+http_accepted	cgi.h	/^	http_accepted,$/;"	e	enum:__anon12
+http_arg_val	w3camd/w3http.c	/^http_arg_val (char **args, char *key)$/;"	f
+http_bad_gateway	cgi.h	/^	http_bad_gateway,$/;"	e	enum:__anon12
+http_bad_request	cgi.h	/^	http_bad_request,$/;"	e	enum:__anon12
+http_code	cgi.h	/^} http_code;$/;"	t	typeref:struct:__anon11
+http_code	w3camd/w3http.h	/^} http_code ;$/;"	t	typeref:struct:__anon6
+http_continue	cgi.h	/^	http_continue,$/;"	e	enum:__anon12
+http_created	cgi.h	/^	http_created,$/;"	e	enum:__anon12
+http_forbidden	cgi.h	/^	http_forbidden,$/;"	e	enum:__anon12
+http_free_args	w3camd/w3http.c	/^http_free_args (char **args)$/;"	f
+http_gone	cgi.h	/^	http_gone,$/;"	e	enum:__anon12
+http_header	w3camd/w3http.c	/^http_header (int fd, int no, char *value)$/;"	f
+http_internal_server_error	cgi.h	/^	http_internal_server_error,$/;"	e	enum:__anon12
+http_moved_permanently	cgi.h	/^	http_moved_permanently,$/;"	e	enum:__anon12
+http_moved_temporarily	cgi.h	/^	http_moved_temporarily,$/;"	e	enum:__anon12
+http_no_content	cgi.h	/^	http_no_content,$/;"	e	enum:__anon12
+http_non_authoritative	cgi.h	/^	http_non_authoritative,$/;"	e	enum:__anon12
+http_not_found	cgi.h	/^	http_not_found,$/;"	e	enum:__anon12
+http_not_implemented	cgi.h	/^	http_not_implemented,$/;"	e	enum:__anon12
+http_not_modyfied	cgi.h	/^	http_not_modyfied,$/;"	e	enum:__anon12
+http_ok	cgi.h	/^	http_ok,$/;"	e	enum:__anon12
+http_parse	w3camd/w3http.c	/^http_parse (char *buf, char ***args)$/;"	f
+http_reset_content	cgi.h	/^	http_reset_content,$/;"	e	enum:__anon12
+http_service_unavailable	cgi.h	/^	http_service_unavailable,$/;"	e	enum:__anon12
+http_status	w3camd/w3http.c	/^http_status (int fd, int no)$/;"	f
+http_unauthorized	cgi.h	/^	http_unauthorized,$/;"	e	enum:__anon12
+http_use_proxy	cgi.h	/^	http_use_proxy,$/;"	e	enum:__anon12
+image	w3camd/w3camd.c	/^	char *image;$/;"	m	struct:__anon3	file:
+image_size	w3camd/w3camd.c	/^	int image_size;$/;"	m	struct:__anon3	file:
+image_t	w3camd/w3camd.c	/^} image_t;$/;"	t	typeref:struct:__anon2	file:
+image_thread	w3camd/w3camd.c	/^image_thread (void *data)$/;"	f
+img	w3camd/w3camd.c	/^	image_t *img;$/;"	m	struct:__anon3	file:
+img	w3camd/w3camd.c	/^	image_t *img;$/;"	m	struct:__anon4	file:
+img	w3camd/w3camd.c	/^	unsigned char *img;		\/* image data for the childs *\/$/;"	m	struct:__anon2	file:
+img_cond	w3camd/w3camd.c	/^	pthread_cond_t img_cond;$/;"	m	struct:__anon2	file:
+img_lock	w3camd/w3camd.c	/^	pthread_mutex_t img_lock;$/;"	m	struct:__anon2	file:
+init_destination	w3camd/w3jpeg.c	/^init_destination (j_compress_ptr cinfo)$/;"	f
+input	w3camd/w3camd.c	/^	int input;$/;"	m	struct:__anon2	file:
+inst	font.c	/^	TT_Instance inst;$/;"	m	struct:_ttfont	file:
+jpeg_io_dest	w3camd/w3jpeg.c	/^jpeg_io_dest (j_compress_ptr cinfo, int fd)$/;"	f
+jpeg_set_defaults	configure	/^jpeg_set_defaults()$/;"	f
+kiosk	samples/index.html	/^function kiosk (url, name, width, height)$/;"	f
+len	w3camd/w3http.h	/^	int len;$/;"	m	struct:__anon6
+log	w3cam.c	/^log (char *info)$/;"	f
+log2	w3cam.c	/^log2 (char *s1, char *s2)$/;"	f
+log_print	w3camd/w3log.h	25;"	d
+main	ppmtoascii.c	/^main (int argc, char *argv[])$/;"	f
+main	vidcat.c	/^main (int argc, char *argv[])$/;"	f
+main	w3cam.c	/^main (int argc, char *argv[])$/;"	f
+main	w3camd/w3camd.c	/^main (int argc, char *argv[])$/;"	f
+make_gui	w3cam.c	/^make_gui (int width, int height, int color, int input, int fmt, int quality,$/;"	f
+make_html	w3cam.c	/^make_html (int width, int height, int color, int input, int fmt, int quality,$/;"	f
+map	ppmtoascii.c	/^char map[] =$/;"	v
+map_size	w3camd/w3v4l.h	/^	int map_size;$/;"	m	struct:__anon9
+max	v4l.c	33;"	d	file:
+mem	w3camd/w3file.h	/^	char *mem;	\/* memory for the image *\/$/;"	m	struct:__anon5
+mem	w3camd/w3v4l.h	/^	char *mem;	\/* memory for the image *\/$/;"	m	struct:__anon9
+mime	cgi.h	/^} mime;$/;"	t	typeref:struct:__anon13
+min	v4l.c	32;"	d	file:
+ms_time	vidcat.c	/^ms_time (void)$/;"	f
+my_dest_ptr	w3camd/w3jpeg.c	/^typedef my_destination_mgr *my_dest_ptr;$/;"	t	file:
+my_destination_mgr	w3camd/w3jpeg.c	/^} my_destination_mgr;$/;"	t	typeref:struct:__anon10	file:
+name	cgi.h	/^	char *name;$/;"	m	struct:__anon13
+num	cgi.h	/^	int num;$/;"	m	struct:__anon11
+num	w3camd/w3http.h	/^	int num;$/;"	m	struct:__anon6
+on_sig_pipe	w3camd/w3camd.c	/^on_sig_pipe (int signum)$/;"	f	file:
+on_signal	w3cam.c	/^on_signal (int signum)$/;"	f
+on_signal	w3camd/w3camd.c	/^on_signal (int signum)$/;"	f	file:
+palette2string	w3cam.c	/^palette2string (int palette) {$/;"	f
+parse_list	w3cam.c	/^parse_list (char *freqs)$/;"	f
+parse_string	w3camd/w3http.c	/^parse_string (const char *str)$/;"	f	file:
+png_create_write_struct	configure	/^png_create_write_struct()$/;"	f
+pow	configure	/^pow()$/;"	f
+prefix	Makefile	/^prefix=\/usr\/local$/;"	m
+prefix	w3camd/Makefile	/^prefix=\/usr\/local$/;"	m
+process_url	w3camd/w3camd.c	/^process_url (conn_t *cn)$/;"	f
+prog_wp	cgi.c	/^static const char *prog_wp = NULL;$/;"	v	file:
+program	cgi.c	/^static char *program = NULL;$/;"	v	file:
+props	font.c	/^	TT_Face_Properties props;$/;"	m	struct:_ttfont	file:
+pub	w3camd/w3jpeg.c	/^	struct jpeg_destination_mgr pub;$/;"	m	struct:__anon10	typeref:struct:__anon10::jpeg_destination_mgr	file:
+put_image_jpeg	vidcat.c	/^put_image_jpeg (FILE *out, char *image, int width, int height, int quality, int palette)$/;"	f
+put_image_jpeg	w3cam.c	/^put_image_jpeg (char *image, int width, int height, int quality, int color)$/;"	f
+put_image_pgm	vidcat.c	/^put_image_pgm (FILE *out, char *image, int width, int height, int binary)$/;"	f
+put_image_png	vidcat.c	/^put_image_png (FILE *out, char *image, int width, int height, int palette)$/;"	f
+put_image_png	w3cam.c	/^put_image_png (char *image, int width, int height, int color)$/;"	f
+put_image_ppm	vidcat.c	/^put_image_ppm (FILE *out, char *image, int width, int height, int binary)$/;"	f
+put_image_ppm	w3cam.c	/^put_image_ppm (char *image, int width, int height)$/;"	f
+quality	w3camd/w3camd.c	/^	int quality;$/;"	m	struct:__anon3	file:
+refresh	w3camd/w3camd.c	/^	float refresh;$/;"	m	struct:__anon3	file:
+run_as_nph	cgi.c	/^static int  run_as_nph = 0;$/;"	v	file:
+sbindir	Makefile	/^sbindir=${exec_prefix}\/sbin$/;"	m
+sbindir	w3camd/Makefile	/^sbindir=\/usr\/local\/sbin$/;"	m
+server_thread	w3camd/w3camd.c	/^server_thread (void *data)$/;"	f
+smooth	font.c	/^	int smooth;$/;"	m	struct:_ttfont	file:
+state	w3camd/w3camd.c	/^	int state;$/;"	m	struct:__anon2	file:
+str	cgi.h	/^	char *str;$/;"	m	struct:__anon11
+str	w3camd/w3http.h	/^	char *str;$/;"	m	struct:__anon6
+term_destination	w3camd/w3jpeg.c	/^term_destination(j_compress_ptr cinfo)$/;"	f
+thread	w3camd/w3camd.c	/^	pthread_t thread;$/;"	m	struct:__anon3	file:
+to_yuv	vidcat.c	/^to_yuv (FILE *out, int fd, int width, int height)$/;"	f
+ttfont	font.c	/^} ttfont;$/;"	t	typeref:struct:_ttfont	file:
+url	w3camd/w3camd.c	/^	char *url;$/;"	m	struct:__anon3	file:
+usage	vidcat.c	/^usage (char *pname)$/;"	f
+usage	w3cam.c	/^usage (char *pname, int width, int height, int color, int quality, int usec)$/;"	f
+usage	w3camd/w3camd.c	/^usage (char *pname) {$/;"	f
+v4l_check_mmap	v4l.c	/^v4l_check_mmap (int fd, int *size)$/;"	f
+v4l_check_palette	v4l.c	/^v4l_check_palette (int fd, int *palette)$/;"	f
+v4l_check_size	v4l.c	/^v4l_check_size (int fd, int *width, int *height)$/;"	f
+v4l_copy_420_block	v4l.c	/^v4l_copy_420_block (int yTL, int yTR, int yBL, int yBR, int u, int v, $/;"	f	file:
+v4l_copy_422_block	v4l.c	/^v4l_copy_422_block (int yTL, int yTR, int u, int v, $/;"	f	file:
+v4l_fini	w3camd/w3v4l.c	/^v4l_fini (video_t *vid)$/;"	f
+v4l_image	w3camd/w3v4l.c	/^v4l_image (video_t *vid)$/;"	f
+v4l_init	w3camd/w3v4l.c	/^v4l_init (char *dev, int input, int width, int height)$/;"	f
+v4l_mute_sound	v4l.c	/^v4l_mute_sound (int fd)$/;"	f
+v4l_set_input	v4l.c	/^v4l_set_input (int fd, int input, int norm)$/;"	f
+v4l_yuv420p2rgb	v4l.c	/^v4l_yuv420p2rgb (unsigned char *rgb_out, unsigned char *yuv_in,$/;"	f
+v4l_yuv422p2rgb	v4l.c	/^v4l_yuv422p2rgb (unsigned char *rgb_out, unsigned char *yuv_in,$/;"	f
+verbose	vidcat.c	/^static int verbose = 0;$/;"	v	file:
+verbose	w3camd/w3camd.c	/^	int verbose;$/;"	m	struct:__anon3	file:
+video_t	w3camd/w3v4l.h	/^} video_t;$/;"	t	typeref:struct:__anon9
+width	w3camd/w3camd.c	/^	int width;				\/* image width *\/$/;"	m	struct:__anon2	file:
+width	w3camd/w3v4l.h	/^	int width, height;$/;"	m	struct:__anon9
+write_jpeg	w3camd/w3camd.c	/^write_jpeg (image_t *img, int fd, int quality)$/;"	f
