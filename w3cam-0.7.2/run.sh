@@ -10,3 +10,6 @@ http://192.168.2.234/cgi-bin/w3cam.cgi?width=240&height=180&mode=gui&quality=65&
 
 http://192.168.2.234/cgi-bin/w3cam.cgi
 
+
+//on arm board
+http://192.168.2.101/cgi-bin/w3cam.cgi?help
